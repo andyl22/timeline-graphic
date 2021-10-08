@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+}
+
+html, body {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#row {
+    display: flex;
+    flex: 0 0 400px;
+    padding: 30px 20px 15px 20px;
+    overflow-x:scroll;
+    align-items: center;
+}
+
+.square-fig, .square {
+    display: flex;
+    flex-direction: column;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #1079BF;
+}
+
+.circle-fig, .circle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.circle {
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #1079BF;
+}
+
+.line {
+    display: flex;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    border-top: 1px solid rgb(16 121 191 / 23%);
+    height: 0px;
+    width: 50px;
+}
